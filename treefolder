@@ -1,0 +1,16 @@
+my-react-app/
+├── build/                # Thư mục chứa các file build sau khi chạy npm run build
+├── node_modules/        # Thư mục chứa các package đã cài đặt
+├── public/              # Thư mục chứa các file tĩnh (index.html, favicon, etc.)
+│   ├── favicon.ico
+│   ├── index.html       # File HTML chính
+│   └── manifest.json
+├── src/                 # Thư mục chứa mã nguồn của ứng dụng
+│   ├── App.jsx          # Component chính
+│   ├── CryptoGrid.jsx   # Component hiển thị dữ liệu crypto
+│   ├── index.js         # Entry point cho ứng dụng React
+├── .gitignore            # File để chỉ định những file/folder cần bỏ qua trong Git
+├── package.json         # File khai báo package và các script
+├── package-lock.json    # File quản lý phiên bản của các package
+├── vercel.json          # File cấu hình cho Vercel (nếu có)
+└── tailwind.config.js        
